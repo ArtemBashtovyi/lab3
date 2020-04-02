@@ -49,7 +49,7 @@
 #include "netif.h"
 /* Exported types ------------------------------------------------------------*/
 /* Exported constants --------------------------------------------------------*/
-#define DP83848_PHY_ADDRESS       0x01 /* Relative to STM324xG-EVAL Board */
+#define DP83848_PHY_ADDRESS       0x3h
 
 /* Specific defines for EXTI line, used to manage Ethernet link status */
 #define ETH_LINK_EXTI_LINE             EXTI_Line14
